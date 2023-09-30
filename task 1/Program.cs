@@ -20,6 +20,18 @@ public class Answer
             return false;
            
         }
+        //     if (number < 10000 || number >= 100000){
+        //     Console.WriteLine("Число не пятизначное");
+        //     return false;
+        // }
+
+        // int reverse = 0;
+        // int temp = number;
+        // while (temp > 0){
+        //     reverse = reverse * 10 + temp % 10;
+        //     temp /= 10;
+        // }
+        // return reverse == number;
         
         Console.WriteLine($"Число не пятизначное");
         return false ;
